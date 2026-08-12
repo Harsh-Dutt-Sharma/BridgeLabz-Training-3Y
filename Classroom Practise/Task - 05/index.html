@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        table td, th{
+            padding : 12px;
+        }
+        .btn{
+            text-align : center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <table border = "1">
+        <tr>
+            <th colspan="2">Registration Form</th>
+        </tr>
+        <tr>
+            <td>Full Name</td>
+            <td>
+                <input type="text" name="name" id="name" placeholder = "Enter your name">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="email" id="email" placeholder = "abc@gmail.com">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td>
+                <input type="tel" name="phone-number" id="phone-number" placeholder = "9876543210">
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td>
+                <input type="date" name="date" id="date">
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="" id="">
+                <label for="">Male</label>
+                <input type="radio" name="" id="">
+                <label for="">Female</label>
+                <input type="radio" name="" id="">
+                <label for="">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Skills</td>
+            <td>
+                <input type="checkbox" name="" id="">
+                <label for="">HTML</label>
+                <input type="checkbox" name="" id="">
+                <label for="">CSS</label>
+                <input type="checkbox" name="" id="">
+                <label for="">JavaScript</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Course</td>
+            <td>
+                <select name="" id="course">
+                    <option value="" selected disabled hidden>--Select Course--</option>
+                    <option value="full-stack">Full Stack</option>
+                    <option value="cloud">Cloud Computing</option>
+                    <option value="dsa">DSA(Java)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="" id=""></textarea></td>
+        </tr>
+        <tr>
+            <td>Upload Resume</td>
+            <td>
+                <input type="file" name="" id="resume" name = "resume" accept = "image/*">
+            </td>
+        </tr>
+        <tr class = "btn">
+            <td colspan = "2">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
