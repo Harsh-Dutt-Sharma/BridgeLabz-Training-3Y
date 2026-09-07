@@ -1,0 +1,106 @@
+*,*::before,*::after{
+            box-sizing : border-box;
+        }
+        body{
+            font-family : Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+            background-color : #1a1a1a;
+            margin-top : 150px;
+            display: flex;
+            justify-content : center;
+        }
+        h1,h2,h3,p{
+            margin : 0;
+        }
+        .product-card{
+            width : 100%;
+            max-width : 320px;
+            background-color : #fff;
+            position : relative;
+            border-radius : 16px;
+        }
+        .shoe-img{
+            width : 100%;
+            aspect-ratio : 1;
+        }
+        .shoe-image img{
+            width : 100%;
+            height : 100%;
+            border-radius : 16px 16px 0 0;
+            object-fit : cover;
+        }
+        .icons{
+            position : absolute;
+            inset : 0;
+        }
+        .card-content{
+            padding : 20px;
+            display : flex;
+            flex-direction : column;
+            gap : 16px;
+        }
+        .rating{
+            display : flex;
+            align-items : center;
+            gap : 6px;
+        }
+        .rating .stars{
+            color : #f4c20d;
+            font-size : 1.1rem;
+            line-height : 1;
+        }
+        .rating .review-count{
+            color : #777;
+            font-size : 1rem;
+            line-height : 1.2;
+        }
+        .add-to-cart{
+            width : 100%;
+            border : none;
+            color : #fff;
+            background-color : #000;
+            padding : 10px 16px;
+            border-radius : 8px;
+            cursor : pointer;
+        }
+        .add-to-cart:hover{
+            box-shadow : 0 8px 24px rgb(0 0 0 / 10%);
+        }
+        .price{
+            display: flex;
+            align-items : center;
+            gap : 8px;
+        }
+        .current-price{
+            font-weight : 700;
+            font-size : 1.25rem;
+        }
+        .old-price{
+            color : #777;
+            font-size : 0.875rem;
+            margin-top : 8px;
+            /* line-height : 1; */
+        }
+        .discount-logo{
+            white-space : nowrap;
+            position : absolute;
+            color : #fff;
+            background-color : #ff1018;
+            /* border : 2px solid #ff1018; */
+            padding-inline : 12px;
+            padding-block : 4px;
+            border-radius : 24px;
+            top : 12px;
+            left : 12px;
+        }
+        .wishlist-btn{
+            width : 40px;
+            height : 40px;
+            font-size : 1.2rem;
+            border-radius : 50%;
+            border : 1px solid #ddd;
+            color : #555;
+            background-color: #fff;
+            position : absolute;
+            top : 12px;
+            right : 12px;
+        }
