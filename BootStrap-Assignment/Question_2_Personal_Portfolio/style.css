@@ -1,0 +1,23 @@
+/* Custom portfolio styling */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.portfolio-text {
+    max-width: 650px;
+}
+
+form input {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
