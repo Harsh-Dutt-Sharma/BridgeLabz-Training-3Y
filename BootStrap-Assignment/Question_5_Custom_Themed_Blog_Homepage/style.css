@@ -1,0 +1,53 @@
+/* Custom Bootstrap theme */
+
+:root {
+    --bs-primary: #6f42c1;
+    --bs-primary-rgb: 111, 66, 193;
+    --bs-font-sans-serif: "Inter", Arial, sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+    background: #faf9ff;
+}
+
+.navbar-brand {
+    color: var(--bs-primary);
+}
+
+.blog-hero {
+    background: linear-gradient(135deg, #f4efff, #ffffff);
+}
+
+.hero-text {
+    max-width: 700px;
+}
+
+.theme-badge {
+    background-color: var(--bs-primary);
+    color: #ffffff;
+}
+
+.blog-card {
+    border: 0;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.blog-card img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+}
+
+.blog-card .btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.footer {
+    background-color: #24163d;
+}
