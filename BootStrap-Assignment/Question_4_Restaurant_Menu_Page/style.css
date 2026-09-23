@@ -1,0 +1,20 @@
+/* Custom restaurant styling */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #fffdf9;
+}
+
+.restaurant-header {
+    background: linear-gradient(135deg, #34251f, #70483b);
+}
+
+.food-image {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+}
+
+.table {
+    font-family: Arial, sans-serif;
+}
