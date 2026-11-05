@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3 Multi Step Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<main class="card"><h1>Registration Form</h1><p id="stepLabel">Step 1 of 3</p><div class="track"><div id="progress"></div></div><form id="form" novalidate><section class="step"><label for="name">Name</label><input id="name" autocomplete="name"><small></small></section><section class="step" hidden><label for="email">Email</label><input id="email" type="email" autocomplete="email"><small></small></section><section class="step" hidden><label for="password">Password</label><input id="password" type="password"><small></small></section><section id="summary" hidden><h2>Registration complete</h2><div id="details"></div></section><div class="actions"><button id="back" type="button" disabled>Back</button><button id="next" type="button">Next</button></div></form></main>
+</body>
+</html>
